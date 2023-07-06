@@ -1,0 +1,2 @@
+# Problem Statement
+#### The problem statement required the creation of a star rating component in React. The component should display a given number of stars based on the provided maximum star value. The user should be able to hover over the stars to see a preview of the rating, and they should be able to click on a star to set the current rating. Additionally, the text should dynamically update based on the selected rating.

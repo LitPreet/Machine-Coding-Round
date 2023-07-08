@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+  }
+  .container{
+    max-width: 380px;
+    width: 100%;
+    /* height: 500px; */
+    padding: 10px 20px;
+    background-color: aliceblue;
+  }
+  .header{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .form{
+    padding: 10px 10px;
+  }
+  .form-control{
+    width: 100%;
+  }
+  .form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 900;
+    /* position: relative; */
+  }
+  .form-control input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+ position: relative;
+  }
+  .form-control input:focus{
+    outline: none;
+    border-color: cornflowerblue ;
+  }
+  .input-cont{
+    display: flex;
+    align-items: center;
+    width: 100%;
+ 
+  }
+
+.fas{
+position: absolute;
+left: 60%;
+visibility: hidden;
+  }
+  .form button{
+    background-color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+
+  }
+  .form-control.succes
+  i.fa-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+  }
+  .form-control.error
+  i.fa-exclamation-circle{
+    color: #e74e3c;
+    visibility: visible;
+  }
+  .form-control small{
+    color: #e74e3c;
+visibility: hidden;
+  }
+  .form-control.error small{
+    visibility: visible;
+  }
+
+  .submit-section
+  {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+  }
+  .sub-p{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .hidden{
+    display: none;
+  }
+  .show{
+    display: flex;
+  }

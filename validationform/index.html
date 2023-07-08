@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./script.js" defer></script>
+    <title>Validation Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+   
+    <div class="container">
+        <div class="header">
+          <h1>Create Account</h1>
+        </div>
+        <form id="form" class="form">
+          <!-- first item -->
+          <div class="form-control ">
+            <label for="Username">Username</label>
+            <div class="input-cont">
+              <input type="text" placeholder="enter your name" id="Username" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+            </div>
+         
+            <small id="small"></small>
+          </div>
+          <!-- second item -->
+          <div class="form-control">
+              <label for="Username">Email</label>
+              <div class="input-cont">
+              <input type="text" placeholder="example@gmail.com" id="email" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              </div>
+              <small id="small"></small>
+            </div>
+          <!-- third item -->
+          <div class="form-control">
+              <label for="Username">Password</label>
+              <div class="input-cont">
+              <input type="password" placeholder="password" id="password" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              </div>
+              <small id="small"></small>
+            </div>
+            <!-- fourth item -->
+            <div class="form-control">
+              <label for="Username">Confirm Password</label>
+              <div class="input-cont">
+              <input type="text" placeholder="confirm password" id="password2" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              </div>
+              <small id="small"></small>
+            </div>
+    
+          <button type="submit">Submit</button>
+        </form>
+      </div> 
+    <div class="submit-section hidden" >
+        <h1 class="sub-p">Thanks for submitting the form</h1>
+    </div>
+  </body>
+</html>
